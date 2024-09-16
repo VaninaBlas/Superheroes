@@ -9,6 +9,8 @@ function Vehiculos(props) {
         <p>
             Velocidad Maxima del vehiculo: {props.velocidadMaxima}
         </p>
+        <button onClick={()=> props.mostrar(props.velocidadMaxima)}>Peligro</button>
+
     </div>
   )
 }
